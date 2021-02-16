@@ -15,6 +15,6 @@ public class CustomerTest {
 		customerKim.setCustomerID(10020);
 		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());
-		
+		//상속 테스트 만들어 보기
 	}
 }

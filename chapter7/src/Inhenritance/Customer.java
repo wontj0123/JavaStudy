@@ -2,9 +2,10 @@ package Inhenritance;
 
 public class Customer {
 
-	private int customerID;
-	private String customerName;
-	private String customerGrade;
+	protected int customerID;
+	protected String customerName;
+	protected String customerGrade;
+	//상속 받는 클래스에 한해서 접근권한 허용 = protected
 	int bonusPoint;
 	double bonusRatio;
 	
